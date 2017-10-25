@@ -23,7 +23,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title> DATA GURU </title>
+  
 
     <!-- Bootstrap Core CSS -->
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
