@@ -23,6 +23,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <meta name="description" content="">
     <meta name="author" content="">
 
+    <title> POFILE GURU DETAIL </title>
 
     <!-- Bootstrap Core CSS -->
     <link href="asset/css/bootstrap.min.css" rel="stylesheet">
@@ -53,8 +54,17 @@ Licence URI: http://www.os-templates.com/template-terms
     
     <!-- Modernizer js -->
     <script src="js/modernizr.custom.js"></script>
+    
+    <link rel="stylesheet" href="css1/demo.css">
+	<link rel="stylesheet" href="css1/footer-distributed-with-address-and-phones.css">
+
+
 
 <body class="index">
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="contrast1" class="warna"> High Contrast</a>
+  <a href="#" id="font1" class="size"> Font Size</a>
+</div>
     
 
 
@@ -70,53 +80,49 @@ Licence URI: http://www.os-templates.com/template-terms
                     <span class="icon-bar"></span>
                 </button>
                 <a href="#maincontent">SKIP</a>
-                <a class="navbar-brand page-scroll" href="#page-top">SMP LB/A YPAB</a>
+                <a class="navbar-brand page-scroll" href="index.html">SMPLB-A YPAB</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
                     
-                <li >
-                    <a href="about.html">About Us </a>
-                </li>
-                    
-				<li class="dropdown">
-                    <a href="#news" class="dropdown-toggle" data-toggle="dropdown">News <b class="caret"></b></a>
-				        <ul class="dropdown-menu">
-							<li><a href="#">Berita Show</a></li>
-							<li><a href="kegiatan.html">Berita Kegiatan</a></li>
+                   <li>
+                        <a href="about.html">About Us</a>
+						
+						
+                    </li>
+					<li class="dropdown">
+                       <a href="#news" class="dropdown-toggle" data-toggle="dropdown">News <b class="caret"></b></a>
+					   <ul class="dropdown-menu">
+							<li><a href="kegiatan.html">Berita Show</a></li>
+							<li><a href="#">Berita Kegiatan</a></li>
 						</ul>
-                </li>
-                    
-                <li class="dropdown">
-                    <a href="#gallery" class="dropdown-toggle" data-toggle="dropdown">Gallery <b class="caret"></b></a>
+                    </li>
+                    <li class="dropdown">
+                          <a href="#gallery" class="dropdown-toggle" data-toggle="dropdown">Gallery <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="gallery.html">Foto</a></li>
 							<li><a href="galleryvideo.html">Video</a></li>
 						</ul>
-                </li>
-                    
-                <li class="dropdown">
+                    </li>
+                    <li class="dropdown">
                         <a href="#akademik" class="dropdown-toggle" data-toggle="dropdown">Akademik <b class="caret"></b></a>
 						<ul class="dropdown-menu">
 							<li><a href="DataGuruIndex.php">Data Guru</a></li>
 							<li><a href="DataSiswa.php">Data Siswa</a></li>
                             <li><a href="prestasi.html">Prestasi</a></li>
 						</ul>
-                </li>
-                    
-                <li>
+                    </li>
+                    <li class="dropdown">
                        <a href="contact.html">Contact Us</a>
-                </li>
-                   
-                <li>
-                          <a href="donate.html">Donate Us</a>
-						  
-                </li>
+                    </li>
+                    <li>
+                          <a href="donate.html">Donate Us</a> 
+                    </li>
                     
                 </ul>
             </div>
@@ -205,8 +211,51 @@ Licence URI: http://www.os-templates.com/template-terms
             <center>
                 <p> <a href="DataGuruIndex.php"> [ Kembali ]</a> </p>
             </center>
-	<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+	
+    <footer class="footer-distributed">
 
+			<div class="footer-left">
+                 
+                <img src="images/logo.png" style="height: 200px">
+                <br><br>
+				<p class="footer-company-name">&emsp;SMPLB A YPAB&copy;2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Jalan Gebang Putih No.5, Gebang Putih, Sukolilo</span> Surabaya, Jawa Timur</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>031-5945490</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">smplba_ypabs@yahoo.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+            </div>
+
+		</footer>
+    
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
 <script src="layout/scripts/jquery.min.js"></script>
@@ -217,7 +266,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- / IE9 Placeholder Support -->
     
     <!-- jQuery Version 2.1.1 -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="asset/js/bootstrap.min.js"></script>
@@ -238,7 +287,8 @@ Licence URI: http://www.os-templates.com/template-terms
 
     <!-- Custom Theme JavaScript -->
     <script src="js/script.js"></script>
+    
     <script src="js/toggle.js"></script>
 
-	</body>
+</body>
 </html>
