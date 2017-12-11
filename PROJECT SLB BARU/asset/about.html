@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>About Us</title>
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- Owl-Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+
+    <!-- Custom CSS -->
+    <link href="css/style1.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Colors CSS -->
+
+    <link rel="stylesheet" type="text/css" href="css/color/blue.css" title="blue">
+    
+    <link rel="stylesheet" href="css1/demo.css">
+	<link rel="stylesheet" href="css1/footer-distributed-with-address-and-phones.css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+
+    <style>
+        .section-about {
+            font-family: PT Sans Narrow;
+            background: #fff
+        }
+
+        .section-donasi {
+            background: #ECECEC
+        }
+
+        .judprofil {
+            font: 30px Oswald;
+            text-align: center
+        }
+
+        .judul3 {
+            font: 40px Oswald;
+            line-height: 50px;
+            text-align: center;
+            padding-top: 50px;
+            text-decoration: none
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .judul4 {
+            font: 25px Oswald;
+            line-height: 35px;
+            text-decoration: none;
+            padding-bottom: 10px;
+            padding-top: 30px;
+        }
+
+        #quote-carousel {
+            padding: 0 10px 30px 10px;
+            margin-top: 60px;
+        }
+
+        #quote-carousel .carousel-control {
+            background: none;
+            color: #CACACA;
+            font-size: 2.3em;
+            text-shadow: none;
+            margin-top: 30px;
+        }
+
+        #quote-carousel .carousel-indicators {
+            position: relative;
+            right: 50%;
+            top: auto;
+            bottom: 0px;
+            margin-top: 20px;
+            margin-right: -19px;
+        }
+
+        #quote-carousel .carousel-indicators li {
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            opacity: 0.4;
+            overflow: hidden;
+            transition: all .4s ease-in;
+            vertical-align: middle;
+        }
+
+        #quote-carousel .carousel-indicators .active {
+            width: 128px;
+            height: 128px;
+            opacity: 1;
+            transition: all .2s;
+        }
+
+        .item blockquote {
+            border-left: none;
+            margin: 0;
+        }
+
+        .item blockquote p:before {
+            content: "\f10d";
+            font-family: 'Fontawesome';
+            float: left;
+            margin-right: 10px;
+        }
+
+        @media(max-width:768px) {
+            div.gallery {
+                width: 100%
+            }
+        }
+        
+    </style>
+
+
+    <!-- Modernizer js -->
+    <script src="js/modernizr.custom.js"></script>
+
+</head>
+
+<body class="index">
+ <div id="mySidenav" class="sidenav">
+  <a href="#" id="contrast1" class="warna"> High Contrast</a>
+  <a href="#" id="font1" class="size"> Font Size</a>
+</div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#maincontent">SKIP</a>
+                <a class="navbar-brand page-scroll" href="index.html">SMPLB A YPAB</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    
+                   <li>
+                        <a href="about.html" >About Us </a>
+                    </li>
+					<li class="dropdown">
+                       <a href="#news" class="dropdown-toggle" data-toggle="dropdown">Kegiatan <b class="caret"></b></a>
+					   <ul class="dropdown-menu">
+                           <li><a href="kegiatan1.php">Berita Kegiatan</a></li>
+							<li><a href="ekskul.php">Ekstrakulikuler</a></li>
+						</ul>
+                    </li>
+                    <li class="dropdown">
+                          <a href="#gallery" class="dropdown-toggle" data-toggle="dropdown">Gallery <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="gallery.php">Foto</a></li>
+							<li><a href="galleryVideo.php">Video</a></li>
+						</ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#akademik" class="dropdown-toggle" data-toggle="dropdown">Akademik <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="DataGuruIndex.php">Data Guru</a></li>
+							<li><a href="DataSiswa.php">Data Siswa</a></li>
+                            <li><a href="prestasi.php">Prestasi</a></li>
+						</ul>
+                    </li>
+                    <li >
+                       <a href="isi_contact.php">Contact Us </a>
+                    </li>
+                    <li>
+                          <a href="donate.html">Donate Us</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#sistemakademik" class="dropdown-toggle" data-toggle="dropdown">Login <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="indexlogin_pegawai.php">Login Guru</a></li>
+							<li><a href="siswa/indexlogin.php">Login Siswa</a></li>
+						</ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+
+
+   <!-- Start Home Page Slider -->
+    <section id="page-top">
+        <!-- Carousel -->
+        <div id="main-slide" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#main-slide" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slide" data-slide-to="1"></li>
+                <li data-target="#main-slide" data-slide-to="2"></li>
+            </ol>
+            <!--/ Indicators end-->
+
+            <!-- Carousel inner -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="img-responsive" src="images/1.png" alt="slider">
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated3">
+                                 <span>Welcome to <strong>SMPLB A YPAB</strong></span>
+                            </h1>
+                            <p class="animated2"><br>YAYASAN PENDIDIKAN ANAK BUTA</p>	
+                            <a href="#feature" class="page-scroll btn btn-primary animated1">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/ Carousel item end -->
+                
+                <div class="item">
+                    <img class="img-responsive" src="images/2.png" alt="slider">
+                    
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated3">
+                    		  <span>Welcome to <strong>SMPLB A YPAB</strong></span>
+                    	    </h1>
+                            <p class="animated2">YAYASAN PENDIDIKAN ANAK BUTA</p>
+                            <a href="#feature" class="page-scroll btn btn-primary animated3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!--/ Carousel item end -->
+                
+                <div class="item">
+                    <img class="img-responsive" src="images/3.png" alt="slider">
+                    <div class="slider-content">
+                        <div class="col-md-12 text-center">
+                            <h1 class="animated3">
+                                <span>Welcome to <strong>SMPLB A YPAB</strong></span>
+                            </h1>
+                            <p class="animated2">YAYASAN PENDIDIKAN ANAK BUTA</p>	
+                                <a href="#feature" class="page-scroll btn btn-primary animated3">Read More</a>
+                                
+                        </div>
+                    </div>
+                </div>
+                <!--/ Carousel item end -->
+            </div>
+            <!-- Carousel inner end-->
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#main-slide" data-slide="prev">
+                <span><i class="fa fa-angle-left"></i></span>
+            </a>
+            <a class="right carousel-control" href="#main-slide" data-slide="next">
+                <span><i class="fa fa-angle-right"></i></span>
+            </a>
+        </div>
+        <!-- /carousel -->
+    </section>
+    <!-- End Home Page Slider -->
+    <div class="section-about latar">
+        <div id ="maincontent">
+        <div class="latar">
+        <div class="container latar box besar">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div style="padding-top:50px;padding-bottom:50px;font-size:20px;text-align: justify">
+                        <div class="judul4">SAMBUTAN KEPSEK</div>
+                        <div class="videoWrapper">
+                                <!-- Copy & Pasted from YouTube -->
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/mq-64jDR_7M" frameborder="0" allowfullscreen></iframe> 
+                            </div>
+                        <div class="box besar">
+                        <div class="judul4 ">VISI</div>
+                        Unggul dalam prestasi, disiplin dan mandiri dalam berkarya berdasarkan nilai iman dan taqwa.
+                        <div class="judul4">MISI</div>
+                        1.&emsp;Menumbuhkembangkan minat belajar siswa agar sejajar dengan anak-anak pada umumnya<br> 2.&emsp;Menggali dan mengembangkann potensi yang dimiliki siswa sebagai bekal kehidupan masa depan
+                        <div class="judul4">PROFIL SEKOLAH</div>
+                        <table class="table table-bordered"  style="padding-left: 10%">
+                            <tr  style="padding-left: 10%">
+                                <td width="40%">Nama Sekolah</td>
+                                <td>SMPLB-A YPAB SURABAYA</td>
+                            </tr>
+                            <tr>
+                                <td >Alamat Sekolah</td>
+                                <td>Jl. Gebang Putih No.5, Gebang Putih, Sukolilo, Surabaya, Jawa Timur</td>
+                            </tr>
+                            <tr>
+                                <td>Nomer Telpon</td>
+                                <td>031-5945490, 5945762</td>
+                            </tr>
+                            <tr>
+                                <td>Kode Pos</td>
+                                <td>60117</td>
+                            </tr>
+                            <tr>
+                                <td>Status Sekolah</td>
+                                <td>Swasta</td>
+                            </tr>
+                            <tr>
+                                <td>Akreditasi</td>
+                                <td>B</td>
+                            </tr>
+                            <tr>
+                                <td>NIS</td>
+                                <td>281090</td>
+                            </tr>
+                            <tr>
+                                <td>NPSN</td>
+                                <td>20532743</td>
+                            </tr>
+                            <tr>
+                                <td>NSS</td>
+                                <td>202056010001</td>
+                            </tr>
+                            <tr>
+                                <td>Nama Yayasan</td>
+                                <td>Yayasan Pendidikan Anak-Anak Buta</td>
+                            </tr>
+                            <tr>
+                                <td>Nama Ketua Yayasan</td>
+                                <td>Prof. Dr. H. Soedarso Djojonegoro, AIF</td>
+                            </tr>
+                            <tr>
+                                <td>email</td>
+                                <td>smplba_ypabs@yahoo.com</td>
+                            </tr>
+                        </table>
+                        <div class="judul4">FASILITAS</div>
+                        1.&emsp;Asrama<br> 2.&emsp;Laboratorium Komputer<br> 3.&emsp;Laboratorium IPA dan IPS<br> 4.&emsp;Masjid dan Laboratorium Agama<br> 5.&emsp;Perpustakaan
+                        <br> 6.&emsp;Ruang Musik<br> 7.&emsp;Ruang UKS<br> 8.&emsp;Ruang Massage<br> 9.&emsp;Gedung Pertemuan<br> 10.&emsp;Alat Bantu Mengajar
+                        <div class="judul4">SEJARAH</div>
+                        &emsp;&emsp;SMPLB-A dan SMALB-A YPAB Surabaya merupakan lembaga pendidikan formal setingkat SMP dan SMA yang dikhususkan bagi siswa-siswi yang memiliki kebutuhan khusus terutama Tunanetra. SMPLB-A dan SMALB-A YPAB Surabaya didirikan pada tahun 1959 oleh Prof. M. Soetopo sebagai bentuk kepedulian social dari beliau terhadap anak-anak berkebutuhan khusus tunanetra di Surabaya.<br> &emsp;&emsp;SMPLB-A dan SMALB-A YPAB Surabaya menyediakan layanan pendidikan yang mumpuni bagi siswa-siswi tunanetra di Surabaya maupun dari daerah yang lain. SMPLB-A dan SMALB-A Surabaya mengedepankan pemenuhan kebutuhan pendidikan bagi siswa tunanetra di mana siswa-siswi tunanetra akan dibekali keterampilan yang mereka butuhkan baik itu secara akademis maupun non-akademis.<br> &emsp;&emsp;Dalam menghadapi tuntutan jaman, peran serta siswa-siswi berkebutuhan khusus di Indonesia ini tidak bisa lagi dianggap remeh. Oleh karena itu, SMPLB-A dan SMALB-A YPAB Surabaya muncul sebagai sarana yang sesuai bagi siswa-siswi tunanetra yang ingin berkiprah dan menyalurkan potensi yang mereka miliki. Bagi mereka yang memiliki kemampuan serta keinginan untuk melanjutkan tingkat pendidikan mereka menuju jenjang yang lebih tinggi, SMPLB-A dan SMALB-A Surabaya memberikan kesempatan yang luas serta bekal yang akan mereka butuhkan.<br> &emsp;&emsp;Bagi siswa-siswi yang mampu melanjutkan pendidikannya di sekolah reguler, SMPLB-A dan SMALB-A YPAB Surabaya merupakan tempat yang tepat bagi mereka untuk mempersiapkan diri. Hal ini karena SMPLB-A dan SMALB-A YPAB Surabaya akan memberikan mereka kemampuan dasar yang dibutuhkan untuk bisa mengakses layanan pendidikan di sekolah regular. Kemampuan dasar yang dibutuhkan ini diantaranya kemampuan bermobilitas, mengorientasi lingkungan, kemampuan menggunakan teknologi asistif, serta bekal kemampuan akademik dasar.
+
+                        <div class="judul4">STRUKTUR</div>
+                        <table class="table table-bordered">
+                            <tr>
+                                <td width="40%">Kepala Sekolah</td>
+                                <td>Drs. Eko Purwanto</td>
+                            </tr>
+                            <tr>
+                                <td>Wakil Kepala Sekolah</td>
+                                <td>Dwi Rahmawati, S.Pd</td>
+                            </tr>
+                            <tr>
+                                <td>Bendahara</td>
+                                <td>Hj. Umi Sa'adah, M.Si</td>
+                            <tr>
+                                <td>Sekretaris</td>
+                                <td>M. Ali Muhaidhon, M.Pd</td>
+                            </tr>
+                            <tr>
+                                <td>Staff Guru&emsp;:</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;&emsp;Agama Kristen dan Massage</td>
+                                <td>Madoeri</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;&emsp;Keterampilan dan PKN</td>
+                                <td>Desutandry Nasofti Martha, M.Pd</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;&emsp;Matematika dan IPA</td>
+                                <td>Atung Yunarto, M.Pd</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;&emsp;Bahasa Inggris</td>
+                                <td>M. Ryan Syuhadi, S.Pd</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;&emsp;Bahasa Indonesia, Massage, dan TIK</td>
+                                <td>Tutus Setiawan, M.Pd</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;&emsp;Kesenian</td>
+                                <td>Riski Nurilawati, S.Pd</td>
+                            </tr>
+                            <tr>
+                                <td>&emsp;&emsp;Keterampilan dan IPS</td>
+                                <td>Hersiwi Kustandyah, S.Pd</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+    <footer class="footer-distributed">
+
+			<div class="footer-left">
+                 
+                <img src="images/logo.png" style="height: 200px">
+                <br><br>
+				<p class="footer-company-name">&emsp;SMPLB A YPAB&copy;2015</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Jalan Gebang Putih No.5, Gebang Putih, Sukolilo</span> Surabaya, Jawa Timur</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>031-5945490</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">smplba_ypabs@yahoo.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+            </div>
+
+		</footer>
+
+
+    <!-- jQuery Version 2.1.1 -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="asset/js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/count-to.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/styleswitcher.js"></script>
+
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/toggle.js"></script>
+
+</body>
+
+</html>
